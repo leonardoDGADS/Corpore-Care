@@ -231,7 +231,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   title: "Ultraformer III",
   description: "Tecnologia avançada de ultrassom microfocado que estimula a produção natural de colágeno, promovendo lifting facial e melhora da flacidez sem cirurgia.",
   icon: Sparkles,
-  image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=2400&auto=format&fit=crop",
+  image: "https://i.im.ge/2026/03/10/egBRuy.image.png",
   items: [
     "Estímulo de colágeno",
     "Lifting sem cirurgia",
@@ -244,7 +244,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   title: "Muay Thai Funcional para Mulheres",
   description: "Aulas dinâmicas que combinam técnicas de muay thai com exercícios funcionais, promovendo condicionamento físico, autoconfiança e alto gasto calórico.",
   icon: Activity,
-  image: "https://i.im.ge/2026/03/10/egBRuy.image.png",
+  image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2670&auto=format&fit=crop",
   items: [
     "Aulas exclusivas para mulheres",
     "Condicionamento físico",
