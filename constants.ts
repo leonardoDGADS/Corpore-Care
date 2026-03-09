@@ -231,7 +231,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   title: "Ultraformer III",
   description: "Tecnologia avançada de ultrassom microfocado que estimula a produção natural de colágeno, promovendo lifting facial e melhora da flacidez sem cirurgia.",
   icon: Sparkles,
-  image: "https://i.im.ge/2026/03/10/egBRuy.image.png",
+  image: "https://i.im.ge/2026/03/10/egBkxK.download-9.jpeg",
   items: [
     "Estímulo de colágeno",
     "Lifting sem cirurgia",
