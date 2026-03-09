@@ -244,7 +244,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   title: "Muay Thai Funcional para Mulheres",
   description: "Aulas dinâmicas que combinam técnicas de muay thai com exercícios funcionais, promovendo condicionamento físico, autoconfiança e alto gasto calórico.",
   icon: Activity,
-  image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2670&auto=format&fit=crop",
+  image: "https://i.im.ge/2026/03/10/egBRuy.image.png",
   items: [
     "Aulas exclusivas para mulheres",
     "Condicionamento físico",
