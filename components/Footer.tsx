@@ -122,6 +122,14 @@ const Footer: React.FC = () => {
         <div className="border-t border-stone-100 pt-8 text-xs text-brand-muted uppercase tracking-widest">
           <p>&copy; {new Date().getFullYear()} Corpore Care. Todos os direitos reservados.</p>
           <p className="mt-2 opacity-50">CNPJ: {CONTACT_INFO.cnpj}</p>
+          <div className="mt-4">
+            <a
+              href="/politica-de-privacidade"
+              className="hover:text-brand-teal transition-colors underline underline-offset-4 font-medium normal-case tracking-normal text-sm"
+            >
+              Política de Privacidade
+            </a>
+          </div>
         </div>
       </div>
     </footer>
