@@ -16,29 +16,36 @@
 
       gtag("js", new Date());
       gtag("config", "AW-18297188710");
-    </script>
 
-    <!-- Conversão: clique de contato/WhatsApp -->
-    <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof url !== "undefined") {
-            window.location.href = url;
-          }
-        };
+      /*
+       * Conversão do Google Ads:
+       * detecta automaticamente cliques em qualquer link de WhatsApp.
+       */
+      document.addEventListener("click", function (event) {
+        var clickedElement = event.target;
+
+        if (!(clickedElement instanceof Element)) {
+          return;
+        }
+
+        var whatsappLink = clickedElement.closest(
+          'a[href*="api.whatsapp.com"], a[href*="wa.me"]'
+        );
+
+        if (!whatsappLink) {
+          return;
+        }
 
         gtag("event", "conversion", {
           send_to: "AW-18297188710/MZf0COOZi84cEObi45RE",
           value: 1.0,
-          currency: "BRL",
-          event_callback: callback,
+          currency: "BRL"
         });
-
-        return false;
-      }
+      });
     </script>
 
     <meta charset="utf-8" />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1"
@@ -74,6 +81,10 @@
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+
+    <script
+      type="module"
+      src="/index.tsx"
+    ></script>
   </body>
 </html>
