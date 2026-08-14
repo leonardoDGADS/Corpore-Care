@@ -22,7 +22,6 @@ const ConceptSection: React.FC = () => {
         'Olá! Vi o site e quero ser assinante da Estética por Assinatura. Como funcionam os planos e valores?',
     },
     {
-      {
                   eyebrow: 'Exclusividade Corpore Care',
                   title: 'Clube Corpore de Harmonização',
                   subtitle: 'Sua harmonização planejada. Seu autocuidado contínuo.',
