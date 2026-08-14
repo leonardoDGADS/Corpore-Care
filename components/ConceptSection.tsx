@@ -7,7 +7,7 @@ const ConceptSection: React.FC = () => {
     const msg = encodeURIComponent(text);
     return `https://api.whatsapp.com/send/?phone=${CONTACT_INFO.whatsapp}&text=${msg}`;
   };
-
+ {/* Atualiza Clube Corpore de Harmonização */}
   const planos = [
     {
       eyebrow: 'Exclusividade Corpore Care',
