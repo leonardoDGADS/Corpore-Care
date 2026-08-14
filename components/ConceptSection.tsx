@@ -22,16 +22,21 @@ const ConceptSection: React.FC = () => {
         'Olá! Vi o site e quero ser assinante da Estética por Assinatura. Como funcionam os planos e valores?',
     },
     {
-      eyebrow: 'Exclusividade Corpore Care',
-      title: 'Meu Botox, Minha Vida',
-      subtitle: 'Seu Botox planejado. Seu autocuidado contínuo.',
-      description:
-        'O Meu Botox, Minha Vida da Corpore Care foi criado para transformar o Botox em parte da sua rotina de autocuidado.\n\nCom um modelo de assinatura simples e planejado, você garante 3 aplicações ao longo do ano, com valor mensal fixo, acompanhamento profissional e toda a tranquilidade de um tratamento organizado.',
-      bullets: ['Mais previsibilidade.', 'Mais cuidado com você.', 'Mais confiança nos resultados.'],
-      cta: 'Quero ser assinante',
-      whatsappText:
-        'Olá! Tenho interesse no Meu Botox, Minha Vida (assinatura). Como funciona (3 aplicações ao ano) e qual o valor mensal?',
-    },
+      {
+                  eyebrow: 'Exclusividade Corpore Care',
+                  title: 'Clube Corpore de Harmonização',
+                  subtitle: 'Sua harmonização planejada. Seu autocuidado contínuo.',
+                  description:
+                    'Com um modelo de assinatura simples e planejado, você garante 3 aplicações ao longo do ano, com valor mensal fixo, acompanhamento profissional e toda a tranquilidade de um tratamento organizado.',
+                  bullets: [
+                    'Mais previsibilidade.',
+                    'Mais cuidado com você.',
+                    'Mais confiança nos resultados.'
+                  ],
+                  cta: 'Quero ser assinante',
+                  whatsappText:
+                    'Olá! Tenho interesse no Clube Corpore de Harmonização. Como funciona o plano e quais são os valores?',
+                },
   ];
 
   return (
